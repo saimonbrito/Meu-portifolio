@@ -169,7 +169,7 @@ main section {
     
  }
 
- @media screen and (max-width: 359px ) {
+ @media screen and (max-width: 385px ) {
   
 
   header ul,li  {
@@ -186,7 +186,7 @@ main section {
   main h1{
     font-size: 16px;
   }
-  main h2,h3{
+  main h1,h3{
     padding-left: 50px;
   }
  
@@ -227,7 +227,7 @@ main section {
   
 
  }
- @media screen and (min-width: 360px ) and (max-width: 670px){
+ @media screen and (min-width: 386px ) and (max-width: 670px){
   header{
     display: flex;
     flex-direction: column;
