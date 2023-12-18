@@ -6,3 +6,11 @@ header strong{
   text-decoration: none;
   color: var(--seconds-color);
 }
+.inicio {
+  
+  font-size: 30px;
+  color: var(--seconds-color);
+}
+.inicio:hover{
+ font-size: 35px;
+}
