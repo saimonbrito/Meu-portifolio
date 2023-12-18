@@ -34,7 +34,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  padding: 1.875rem;
   
 }
 
@@ -47,16 +47,16 @@ header h2:hover{
   transition: 0.5s;
   color: rgb(73, 117, 73);
 }
-header ul,li  {
+header nav ul,li  {
   display: flex;
   gap: 64px;
 }
-header ul a {
-  font-size: 25px;
+header nav ul a {
+  font-size:1.563rem;
     text-decoration: none;
       
 }
-header li{
+header nav  ul li{
   font-size: 25px;
 }
 
@@ -73,7 +73,7 @@ main {
  
 }
 main section {
-  padding: 20px;
+  padding: 1.563rem;
 }
 .foto{
   display: flex;
@@ -109,7 +109,7 @@ main section {
   margin-bottom: 30px;
  }
 
- main section.img{
+ main section .img{
   display: flex;
   gap: 20px;
  }
@@ -118,40 +118,42 @@ main section {
  
  }
  
+  /*midia query*/
 
  @media screen and (max-width: 359px ) {
-  header{
+  
+  header {
     display: flex;
-    align-items:flex-start;
-    justify-content: 0;
-    padding: 0px;
-    padding-top: 10px;
+    align-items: baseline;
+    flex-direction: column;
     
+    padding-top: 30px;
+  
   }
-
+  
   header ul,li  {
     display: flex;
-    
     flex-direction: column;
-    gap: 16px;
+    
   }
-
+  header nav ul,li  {
+    display: flex;
+    gap: 15px;
+    
+  }
  
   header h2{
     margin-bottom: 20px;
 
   }
-  main h1{
-      font-size: 20px;
+  main section h1{
+      font-size: 1rem;
+      
   }
-  main h3{
-    font-size: 16px;
+  main section h3{
+    font-size: 1.5rem;
   }
-  main .img {
-     margin-bottom: 50px;
-    padding-top: 20px;
-    margin-left: 30px;
-  }
+ 
   main .fotos{
     display: none;
   }
@@ -163,6 +165,7 @@ main section {
 
  }
  @media screen and (min-width: 360px ) and (max-width: 670px){
+  
   header{
     display: flex;
     flex-direction: column;
@@ -170,24 +173,21 @@ main section {
     justify-content: center;
     
   }
-  header h2{
-    margin-bottom: 20px;
-
+  header nav ul,li  {
+    padding-top: 10px;
+    display: flex;
+    gap: 32px;
   }
-  main{
-   
+  main section h1{
+    font-size: 1rem;
   }
-  main h1{
-      font-size: 36px;
+  main section h3{
+    font-size: 1.5rem;
   }
-  main h3{
-    font-size: 16px;
+  main section h1 , h3{
+    padding-left: 2rem;
   }
-  main .img {
-     margin-bottom: 50px;
-    padding-top: 20px;
-    margin-left: 30px;
-  }
+  
   main .fotos{
     display: none;
   }
@@ -196,70 +196,46 @@ main section {
     font-size: 20px;
   }
 
-}
- @media screen and (max-width: 670px){
-  header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  header h2{
-    margin-bottom: 20px;
-
-  }
-  main h1{
-      font-size: 36px;
-  }
-  main h3{
-    font-size: 16px;
-  }
   main .img {
      margin-bottom: 50px;
     padding-top: 20px;
     margin-left: 30px;
   }
-  main .fotos{
-    display: none;
-  }
-  .foto p{
-    margin-top: 20px;
-    font-size: 20px;
-  }
+  
  }
  
- @media  (min-width: 671px ) and (max-width: 779px){
-  h1{
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    margin-bottom: 20px;
-   }
+ @media  screen and (min-width: 670px ) and (max-width: 779px){
+  
    main .fotos{
     display: none;
   }
-   h3{
-    font-size:30px ;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 30px;
+ 
+  main section h1{
+    font-size:20px;
+   
+   }
+   main section .img{
+    padding: 30px;
+   }
+   .foto{
+    padding-top: ;
    }
  }
  @media  (min-width: 780px ) and (max-width: 1005px){
-  .foto .fotos{
-      margin-top: 100px;
-    width: 275px;
-    border-radius: 10px 200px 10px;
-    border: 1px solid;
-    box-shadow: rgba(0, 0, 0, 0.35) -10px 20px 10px;
-    
+  .foto{
+    padding-top: 40px;
   }
-  h1{
-    font-size: 70px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    margin-bottom: 20px;
+  .foto .fotos{
+    width: 275px;
+   
+  }
+  main section h1{
+    font-size:60px;
+   
+   }
+   main section h3{
+    font-size:30px ;
+    
    }
 
 }
