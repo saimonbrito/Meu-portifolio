@@ -1,5 +1,10 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .sobre{
-  margin-top: 10px;
   text-align: center;
 }
 .sobre p{
@@ -27,3 +32,16 @@ footer {
    justify-content: space-around;
    
 }
+
+/* midia query*/
+@media screen and (max-width: 359px ) {
+  
+  header {
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+footer {
+  display: none;
+}
+
+ }

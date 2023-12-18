@@ -1,8 +1,8 @@
 .contatos{
   display: flex;
   flex-direction: column;
-  padding-left: 300px;
-  padding-top: 150px;
+  padding-left: 50px;
+  padding-top: 50px;
   font-size: 32px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   gap: 16px;
@@ -32,3 +32,67 @@
    justify-content: space-around;
    
 }
+
+@media screen and (max-width: 359px ) {
+  
+  .contatos{
+    padding-left: 0;
+  }
+  .contatos p{
+    font-size: 18px;
+    color: var(--primaria-texto);
+  }
+ 
+footer {
+  display: none;
+}
+
+ }
+ @media screen and (min-width: 360px ) and (max-width: 670px){
+  
+  .contatos{
+    padding-left: 0;
+  }
+  .contatos p{
+    font-size: 18px;
+    color: var(--primaria-texto);
+  }
+ 
+ }
+ 
+ @media  screen and (min-width: 670px ) and (max-width: 779px){
+  
+   main .fotos{
+    display: none;
+  }
+ 
+  main section h1{
+    font-size:20px;
+   
+   }
+   main section .img{
+    padding: 30px;
+   }
+   .foto{
+    padding-top: ;
+   }
+ }
+ @media  (min-width: 780px ) and (max-width: 1005px){
+  .foto{
+    padding-top: 40px;
+  }
+  .foto .fotos{
+    width: 275px;
+   
+  }
+  main section h1{
+    font-size:60px;
+   
+   }
+   main section h3{
+    font-size:30px ;
+    
+   }
+
+}
+
