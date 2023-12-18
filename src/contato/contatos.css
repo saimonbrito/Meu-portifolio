@@ -1,0 +1,34 @@
+.contatos{
+  display: flex;
+  flex-direction: column;
+  padding-left: 300px;
+  padding-top: 150px;
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  gap: 16px;
+  
+ } 
+ .contatos a,li{
+   text-decoration: none;
+   color: var(--seconds-color);
+ }
+ .contatos a:hover{
+   
+   font-size: 35px;
+   border-radius: 5px;
+   transition: 0.5s;
+   color:var(--color-hover);
+ }
+ .contatos p{
+   font-size: 30px;
+   color: var(--primaria-texto);
+ }
+
+
+ footer {
+  position: relative;
+  bottom: 200px;
+   display: flex;
+   justify-content: space-around;
+   
+}

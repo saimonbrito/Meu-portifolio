@@ -1,0 +1,29 @@
+.sobre{
+  margin-top: 10px;
+  text-align: center;
+}
+.sobre p{
+  color: var(--primaria-texto);
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sobre h2{
+  margin-bottom: 10px;
+  color:var(--color-h2);
+}
+.sobre strong{
+  font-size: 20px;
+  color: var(--seconds-color);
+}
+
+
+
+footer {
+  position: relative;
+  bottom: 200px;
+   display: flex;
+   justify-content: space-around;
+   
+}
