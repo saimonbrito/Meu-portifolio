@@ -1,0 +1,8 @@
+header strong{
+  border-radius: 50%;
+  background-color: green;
+}
+.projetos a,li{
+  text-decoration: none;
+  color: var(--seconds-color);
+}

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: var(--pagdrao);
+  color: var(--primaria-texto);
   text-decoration: none;
 }
 
@@ -24,13 +24,14 @@ body {
   width: 100%;
   margin: 0 auto;
   margin-top: 20px;
-  background-color:rgb(241, 238, 243);
+  background-color:rgb(15, 14, 15);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 20px;
   height: 50rem;
   
 }
 header{
+  color: rgb(67, 59, 189);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,6 +68,7 @@ header .nav li:hover{
     
 }
 
+
 main {
   width: 100%;
   height: 100%;
@@ -81,6 +83,12 @@ main section {
   align-items: center;
   padding-left: 30px;
   
+}
+.foto img{
+  background-color: rgb(114, 150, 138);
+}
+.foto img:hover{
+  background-color: aquamarine;
 }
 .foto p{
   padding-top: 10px;
@@ -156,6 +164,10 @@ main section {
  
   main .fotos{
     display: none;
+    
+  }
+  .foto{
+    padding-top: 30px;
   }
   .foto p{
     margin-top: 20px;
