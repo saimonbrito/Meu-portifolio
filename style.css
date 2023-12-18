@@ -169,42 +169,39 @@ main section {
     
  }
 
+ @media screen and (max-width: 359px ) {
+  
 
- @media screen and (max-width: 405px ) {
-  body{
-    background-image: url("./img/errol.jpg");
-    background-size: cover;
-    background-repeat: repeat;
-  }
-  .container{
-    display: none;
-   
-  }
- }
- @media screen and (min-width: 410px ) and (max-width: 670px){
-  header{
+  header ul,li  {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+    gap: 16px;
   }
+
+ 
   header h2{
     margin-bottom: 20px;
 
   }
   main h1{
-      font-size: 36px;
-  }
-  main h3{
     font-size: 16px;
   }
+  main h2,h3{
+    padding-left: 50px;
+  }
+ 
   main .img {
      margin-bottom: 50px;
     padding-top: 20px;
     margin-left: 30px;
   }
-  main .fotos{
+  .img{
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    gap: 20px;
+   }
+  main .foto p, .fotos{
     display: none;
   }
   .foto p{
@@ -243,7 +240,7 @@ main section {
 
   }
   main{
-    padding-left: 100px;
+   
   }
   main h1{
       font-size: 36px;
@@ -282,6 +279,57 @@ main section {
   
 
  }
+ 
+ @media screen and (max-width: 670px){
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  header h2{
+    margin-bottom: 20px;
+
+  }
+  main h1{
+      font-size: 36px;
+  }
+  main h3{
+    font-size: 16px;
+  }
+  main .img {
+     margin-bottom: 50px;
+    padding-top: 20px;
+    margin-left: 30px;
+  }
+  main .fotos{
+    display: none;
+  }
+  .foto p{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 16px;
+    
+   } 
+   .contatos p{
+    font-size: 20px;
+    color: var(--primaria-texto);
+  }
+  
+
+ }
+ 
  @media  (min-width: 671px ) and (max-width: 779px){
   h1{
     font-size: 50px;
