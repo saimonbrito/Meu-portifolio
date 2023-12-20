@@ -54,11 +54,17 @@ footer {
 footer {
   display: none;
 }
+.sobre h3{
+  text-align: start;
+ }
 
  }
  @media screen and (min-width: 360px ) and (max-width: 670px){
   footer {
     display: none;
+  }
+  .sobre h3{
+   text-align: start;
   }
   
  }
