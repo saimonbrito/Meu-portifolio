@@ -40,7 +40,7 @@ header strong{
 
  footer {
   position: relative;
-  bottom: 200px;
+
    display: flex;
    justify-content: space-around;
    

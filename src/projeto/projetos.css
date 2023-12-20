@@ -14,3 +14,10 @@ header strong{
 .inicio:hover{
  font-size: 35px;
 }
+footer {
+  position: relative;
+
+   display: flex;
+   justify-content: space-around;
+   
+}
