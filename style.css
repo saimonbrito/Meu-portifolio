@@ -278,9 +278,7 @@ main section {
    main section .img{
     padding: 30px;
    }
-   .foto{
-    padding-top: ;
-   }
+  
  }
  @media  (min-width: 780px ) and (max-width: 1005px){
   .foto{
