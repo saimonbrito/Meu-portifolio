@@ -203,6 +203,9 @@ main section {
     margin-bottom: 20px;
 
   }
+  main section {
+    padding: 0;
+  }
   main section h1{
       font-size: 1rem;
       
@@ -238,6 +241,9 @@ main section {
     padding-top: 10px;
     display: flex;
     gap: 22px;
+  }
+  main section {
+    padding: 0;
   }
   main section h1{
     font-size: 1rem;
@@ -278,9 +284,7 @@ main section {
    main section .img{
     padding: 30px;
    }
-   .foto{
-    padding-top: ;
-   }
+   
  }
  @media  (min-width: 780px ) and (max-width: 1005px){
   .foto{
