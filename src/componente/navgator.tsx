@@ -25,7 +25,7 @@ export function Navgator(){
                     </div>
 
                     <div className='flex justify-center items-center'>
-                    <img className='rounded-full w-96' src={Fotocapa} alt="" />
+                    <img className='rounded-full w-32' src={Fotocapa} alt="" />
                     </div>
                 </div>
                 {/* carrocel */}
