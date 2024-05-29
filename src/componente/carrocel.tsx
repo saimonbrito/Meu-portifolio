@@ -8,7 +8,7 @@ import img4 from '../../public/img/script-java (2).png'
 
 export function Carrocel() {
   return (
-    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-64">
       <Carousel>
         <img src={img1} alt="..." />
         <img src={img2}alt="..." />
