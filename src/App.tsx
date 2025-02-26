@@ -1,13 +1,9 @@
-
-import {Navgator} from './componente/navgator'
+import { Navgator } from "./componente/navgator";
 
 export function App() {
- 
-  return (
-    <div >
-      <Navgator/>
-    </div>
-  )
+	return (
+		<div>
+			<Navgator />
+		</div>
+	);
 }
-
-
